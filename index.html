@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color:#fff8e9; 
+    }
+    #name{
+        font-family: 'satisfy', cursive;
+        font-size: 50px;
+    }
+    .container {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        background-color: #FFE4D6;
+        padding-left: 10px;
+    }
+    .content {
+        background-color: #E4E4D0;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    .text {
+        width: 50%; 
+        text-align: left;
+    }
+    .image {
+        width: 45%; 
+    }
+    .image img {
+        width: 100%;
+        max-width: 250px;
+        height: auto; 
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        text-decoration:underline;
+    }
+    .button {
+        display: inline-block;
+        background-color: #9c8ea1; 
+        color: white; 
+        text-align: center;
+        padding: 10px 20px; 
+        text-decoration: none;
+        border: none;
+        border-radius: 5px; 
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
+    }
+
+    .button:hover {
+        background-color: #7c6685; 
+    }
+    footer {
+        text-align: center;
+        padding: 1em 0;
+        background: #707473;
+        color: white;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    hr {
+        border: none; 
+        height: 3px; 
+        background-color: #ccc; 
+        margin-bottom: 20px; 
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    .image{
+        border-radius: 20px; 
+    }
+    .skills {
+        list-style-type:disc;
+        margin-left: -15px;
+    }
+    .skills li{
+        display: inline-block; 
+        margin-right: 30px; 
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1 id="name">Xiaohan Zhao</h1>
+            <nav>
+                <a href="contact.html" class="button">Contact Information</a>
+            </nav>
+            <h1>Summary</h1>
+            <p>ACCA-qualified professional (Association of Chartered Certified Accountants) with extensive experience in auditing and foundation in database management and data analysis, proficient in SQL and Java. 
+                Eager to leverage my analytical and financial expertise to provide data-driven insights in a data analyst role within the financial sector. </p>
+        </div>
+        <div class="image">
+          <img src="photo.jpg" alt="Xiaohan's photo" class="image">
+        </div>
+    </div>
+    <div class="content">
+        <h1>Education</h1>
+        <h2>Post Graduate Certificate, Conestoga College </h2>
+        <p>May 2023 - Dec 2023, Canada</p>
+        <ul>
+            <li>Major: Reporting Systems and Database Development</li>
+            <li>Major Course: Relational Databases, NoSQL Databases, Data Warehouse Implementation, Data Visualization and Reporting, Developing Web Applications</li>
+        </ul>
+        <h2>Bachelor of management, Qingdao University</h2>
+        <p>Sep 2015 - Jun 2019, China</p>
+        <ul>
+            <li>Major: Accounting</li>
+            <li>Major Course: Intermediate and Advanced Financial Accounting, Statistics, Macroeconomics, Microeconomics, Economic Mathematics</li>
+        </ul>
+
+        <hr>
+
+        <h1>Work Experience</h1>
+        <h2>Ernst & Young LLP (EY)</h2>
+        <p>Senior Accountant, Oct 2019 - Apr 2022, China</p>
+        <ul>
+            <li>Engaged in the annual audit of large energy group companies, familiar with the disclosure requirements of IFRS. </li>
+            <li>Participated in developing the RPA automatic form filling program, sorted out the logic and format of the financial statements.</li>
+        </ul>
+
+        <hr>
+
+        <h1>Skills</h1>
+        <ul class="skills">
+            <li>Excel</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>Cassandra</li>
+            <li>Hadoop</li>
+            <li>CouchDb</li>
+        </ul>
+
+        <hr>
+
+        <h1>Awards and Certifications</h1>
+        <ul>
+            <li>ACCA Affiliate</li>
+            <li>Python for Everybody Specialization - Coursera</li>
+        </ul>
+
+        <hr>
+
+        <h1>Hobbies</h1>
+        <nav>
+            <a href="Hobbies.html" class="button">Here is my hobbies!</a>
+        </nav>
+    
+        <footer>Copyright © 2023 Xiaohan Zhao. All Rights Reserved.</footer>
+    
+    </div> 
+</body>
+</html>
